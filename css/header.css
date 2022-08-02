@@ -1,0 +1,7 @@
+header.main {
+    margin-top: 60px;
+}
+
+header.main .logo img {
+    display: block;
+}

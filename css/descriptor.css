@@ -1,0 +1,19 @@
+section.descriptor {
+    margin-top: 107px;
+}
+
+section.descriptor .content {
+    padding: 43px 45px 0 42px;
+}
+
+section.descriptor .title {
+    margin: 18px 0 30px;
+}
+
+section.descriptor .img {
+    margin-right: -108px;
+}
+section.descriptor .text {
+    margin-bottom: 60px;
+    padding-right: 80px;
+}

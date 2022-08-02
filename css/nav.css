@@ -1,0 +1,25 @@
+nav.nav-main {
+    flex-grow: 1;
+    text-align: center;
+
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+nav.nav-main a {
+    display: inline-block;
+    color: #3F3F3F;
+    text-decoration: none;
+    margin: 4px 30px;
+    padding: 9px 0;
+    border-bottom-color: transparent;
+    transition: border-bottom-color 300ms;
+}
+
+nav.nav-main a.active,
+nav.nav-main a:hover {
+    border-bottom: 2px solid #F29416;
+}
