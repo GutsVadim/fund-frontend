@@ -1,0 +1,31 @@
+section.projects .content {
+    background-color: #f3f3f3;
+    padding: 70px 0;
+}
+section.projects .info,
+section.projects .images {
+    width: 50%;
+}
+section.projects .info {
+    width: 50%;
+}
+section.projects .direction {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+section.projects .goal {
+    margin: 35px 0 95px;
+}
+section.projects .goal .item {
+    width: 33%;
+    font-size: 16px;
+    border-left: 2px solid #F29416;
+    padding: 0 10px;
+}
+section.projects .goal .title {
+    color: #B8B8B8;
+}
+section.projects .goal .value {
+    font-weight: 600;
+    color: #3F3F3F;
+}

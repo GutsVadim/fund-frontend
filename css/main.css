@@ -1,6 +1,8 @@
 @import "header.css";
 @import "nav.css";
 @import "descriptor.css";
+@import "projects.css";
+@import "progressbar.css";
 
 body {
     margin: 0;
@@ -48,6 +50,15 @@ body {
     background-color: #ffa731;
 }
 
+.btn.btn-transparent {
+    background-color: transparent;
+    color: #B8B8B8;
+}
+
+.btn.btn-transparent:hover {
+    background-color: transparent;
+}
+
 .title {
     letter-spacing: 0.01em;
     color: #3F3F3F;
@@ -73,6 +84,34 @@ h1.title:before {
 
 h2.title {
     font-size: 36px;
+    margin: 18px 0 70px;
+}
+
+h3.title {
+    font-size: 25px;
+    margin: 14px 0;
+}
+
+.stroke {
+    position: relative;
+}
+
+.stroke:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -18px;
+    background: url("../img/title-2-bg.png") no-repeat;
+    background-size: contain;
+    width: 210px;
+    height: 28px;
+    z-index: -1;
+}
+
+.stroke.stroke-right:before {
+    left: 264px;
+    top: 27px;
 }
 
 .sub-title {
@@ -83,6 +122,8 @@ h2.title {
     color: #F29416;
     position: relative;
     padding-left: 39px;
+    margin-top: 150px;
+    display: block;
 }
 
 .sub-title:before {
@@ -93,4 +134,11 @@ h2.title {
     position: absolute;
     top: 9px;
     left: 0;
+}
+
+.text-gray {
+    color: #B8B8B8;
+}
+.text-dark-gray {
+    color: #777777;
 }
